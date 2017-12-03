@@ -10,6 +10,6 @@
 
 @interface SayHello : NSObject
 
-+ (void)SayHelloTo;
+- (void)SayHelloTo;
 
 @end

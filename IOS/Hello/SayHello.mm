@@ -11,10 +11,10 @@
 
 @implementation SayHello
 
-+(void)SayHelloTo
+-(void)SayHelloTo
 {
     NSLog(@"我就是要说哈喽");
-    tarFile(0, nil, "/Users/yangjiazhen/Desktop/1.tar", nil);
+    tarFile(0, nil, "/Users/yangjiazhen/Desktop", "/Users/yangjiazhen/Desktop/1.tar");
 }
 
 @end
