@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4832EB91FD3F18D00091805 /* SayHello.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4832EB61FD3F18D00091805 /* SayHello.h */; };
+		D4832EC31FD3F1AA00091805 /* tar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4832EC11FD3F1AA00091805 /* tar.cpp */; };
+		D4832EC41FD3F1AA00091805 /* untar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4832EC21FD3F1AA00091805 /* untar.cpp */; };
+		D4832EC61FD3F20600091805 /* SayHello.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4832EC51FD3F20600091805 /* SayHello.mm */; };
+		D4832EC81FD3F25D00091805 /* SayHello.h in Headers */ = {isa = PBXBuildFile; fileRef = D4832EB61FD3F18D00091805 /* SayHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4832EB11FD3F18D00091805 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D4832EB91FD3F18D00091805 /* SayHello.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D4832EB31FD3F18D00091805 /* libSayHello.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSayHello.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4832EB61FD3F18D00091805 /* SayHello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayHello.h; sourceTree = "<group>"; };
+		D4832EBF1FD3F1AA00091805 /* untar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = untar.hpp; path = ../../IOS/Hello/untar.hpp; sourceTree = "<group>"; };
+		D4832EC01FD3F1AA00091805 /* tar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tar.h; path = ../../IOS/Hello/tar.h; sourceTree = "<group>"; };
+		D4832EC11FD3F1AA00091805 /* tar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tar.cpp; path = ../../IOS/Hello/tar.cpp; sourceTree = "<group>"; };
+		D4832EC21FD3F1AA00091805 /* untar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = untar.cpp; path = ../../IOS/Hello/untar.cpp; sourceTree = "<group>"; };
+		D4832EC51FD3F20600091805 /* SayHello.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SayHello.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4832EB01FD3F18D00091805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4832EAA1FD3F18D00091805 = {
+			isa = PBXGroup;
+			children = (
+				D4832EB51FD3F18D00091805 /* SayHello */,
+				D4832EB41FD3F18D00091805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4832EB41FD3F18D00091805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4832EB31FD3F18D00091805 /* libSayHello.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4832EB51FD3F18D00091805 /* SayHello */ = {
+			isa = PBXGroup;
+			children = (
+				D4832EC51FD3F20600091805 /* SayHello.mm */,
+				D4832EC11FD3F1AA00091805 /* tar.cpp */,
+				D4832EC01FD3F1AA00091805 /* tar.h */,
+				D4832EC21FD3F1AA00091805 /* untar.cpp */,
+				D4832EBF1FD3F1AA00091805 /* untar.hpp */,
+				D4832EB61FD3F18D00091805 /* SayHello.h */,
+			);
+			path = SayHello;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D4832EC71FD3F24A00091805 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4832EC81FD3F25D00091805 /* SayHello.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D4832EB21FD3F18D00091805 /* SayHello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4832EBC1FD3F18D00091805 /* Build configuration list for PBXNativeTarget "SayHello" */;
+			buildPhases = (
+				D4832EAF1FD3F18D00091805 /* Sources */,
+				D4832EB01FD3F18D00091805 /* Frameworks */,
+				D4832EB11FD3F18D00091805 /* CopyFiles */,
+				D4832EC71FD3F24A00091805 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayHello;
+			productName = SayHello;
+			productReference = D4832EB31FD3F18D00091805 /* libSayHello.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4832EAB1FD3F18D00091805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "杨家振";
+				TargetAttributes = {
+					D4832EB21FD3F18D00091805 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D4832EAE1FD3F18D00091805 /* Build configuration list for PBXProject "SayHello" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4832EAA1FD3F18D00091805;
+			productRefGroup = D4832EB41FD3F18D00091805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4832EB21FD3F18D00091805 /* SayHello */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4832EAF1FD3F18D00091805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4832EC41FD3F1AA00091805 /* untar.cpp in Sources */,
+				D4832EC61FD3F20600091805 /* SayHello.mm in Sources */,
+				D4832EC31FD3F1AA00091805 /* tar.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D4832EBA1FD3F18D00091805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4832EBB1FD3F18D00091805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4832EBD1FD3F18D00091805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UMS7H2WDF;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4832EBE1FD3F18D00091805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UMS7H2WDF;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4832EAE1FD3F18D00091805 /* Build configuration list for PBXProject "SayHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4832EBA1FD3F18D00091805 /* Debug */,
+				D4832EBB1FD3F18D00091805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4832EBC1FD3F18D00091805 /* Build configuration list for PBXNativeTarget "SayHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4832EBD1FD3F18D00091805 /* Debug */,
+				D4832EBE1FD3F18D00091805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4832EAB1FD3F18D00091805 /* Project object */;
+}
